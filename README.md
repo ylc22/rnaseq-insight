@@ -49,7 +49,9 @@ ranked gene report + figures
 git clone https://github.com/ylc22/rnaseq-insight.git
 cd rnaseq-insight
 python -m venv .venv
+# macOS / Linux
 source .venv/bin/activate
+# Windows PowerShell: .\\.venv\\Scripts\\Activate.ps1
 pip install -r requirements.txt
 python scripts/run_demo.py
 ```
